@@ -12,6 +12,9 @@
 		20088A971DC77A2F0024D431 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20088A951DC77A2F0024D431 /* Main.storyboard */; };
 		20088A991DC77A2F0024D431 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20088A981DC77A2F0024D431 /* Assets.xcassets */; };
 		20088A9C1DC77A2F0024D431 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20088A9A1DC77A2F0024D431 /* LaunchScreen.storyboard */; };
+		20088AA51DC77A530024D431 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20088AA41DC77A530024D431 /* SpriteKit.framework */; };
+		20088AA71DC77AA90024D431 /* Bee.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 20088AA61DC77AA90024D431 /* Bee.atlas */; };
+		20088AA91DC77CDB0024D431 /* BeeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20088AA81DC77CDB0024D431 /* BeeScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		20088A981DC77A2F0024D431 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20088A9B1DC77A2F0024D431 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20088A9D1DC77A2F0024D431 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20088AA41DC77A530024D431 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		20088AA61DC77AA90024D431 /* Bee.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Bee.atlas; sourceTree = "<group>"; };
+		20088AA81DC77CDB0024D431 /* BeeScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeeScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20088AA51DC77A530024D431 /* SpriteKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +47,7 @@
 			children = (
 				20088A901DC77A2F0024D431 /* SpriteKitUIKit */,
 				20088A8F1DC77A2F0024D431 /* Products */,
+				20088AA31DC77A530024D431 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +64,22 @@
 			children = (
 				20088A911DC77A2F0024D431 /* AppDelegate.swift */,
 				20088A931DC77A2F0024D431 /* ViewController.swift */,
+				20088AA81DC77CDB0024D431 /* BeeScene.swift */,
 				20088A951DC77A2F0024D431 /* Main.storyboard */,
+				20088AA61DC77AA90024D431 /* Bee.atlas */,
 				20088A981DC77A2F0024D431 /* Assets.xcassets */,
 				20088A9A1DC77A2F0024D431 /* LaunchScreen.storyboard */,
 				20088A9D1DC77A2F0024D431 /* Info.plist */,
 			);
 			path = SpriteKitUIKit;
+			sourceTree = "<group>";
+		};
+		20088AA31DC77A530024D431 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20088AA41DC77A530024D431 /* SpriteKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +142,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20088AA71DC77AA90024D431 /* Bee.atlas in Resources */,
 				20088A9C1DC77A2F0024D431 /* LaunchScreen.storyboard in Resources */,
 				20088A991DC77A2F0024D431 /* Assets.xcassets in Resources */,
 				20088A971DC77A2F0024D431 /* Main.storyboard in Resources */,
@@ -139,6 +158,7 @@
 			files = (
 				20088A941DC77A2F0024D431 /* ViewController.swift in Sources */,
 				20088A921DC77A2F0024D431 /* AppDelegate.swift in Sources */,
+				20088AA91DC77CDB0024D431 /* BeeScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
